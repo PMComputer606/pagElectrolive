@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Somos una empresa dedicada energia autosustentable"
+    />
+    <meta
+      name="description"
+      content="Paneles solares, medio ambiente, autos eléctricos"
+    />
+    <title>Electroive</title>
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!--------------REDES SOCIALES-------------->
+      <div class="comunicaciones">
+        <div id="whatsapp">
+          <a
+            href="https://wa.me/5493517321222"
+            target="_blank"
+            class="fab fa-whatsapp"
+          ></a>
+        </div>
+
+        <div id="youtube">
+          <a
+            href="https://www.youtube.com/@electroliveArgentina"
+            target="_blank"
+            class="fa-brands fa-youtube"
+          ></a>
+        </div>
+      </div>
+      <nav class="menu">
+        <section class="menu__container">
+          <div class="container__logo">
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" alt="" />
+            </a>
+          </div>
+
+          <ul class="menu__links">
+            <li class="menu__item">
+              <a href="index.html" class="menu__link">Inicio</a>
+            </li>
+
+            <li class="menu__item menu__item--show">
+              <a href="acerca de.html" class="menu__link">Acerca de</a>
+            </li>
+
+            <li class="menu__item menu__item--show">
+              <a href="#" class="menu__link"
+                >Servicios
+                <img src="assets/icons/arrow.svg" class="menu__arrow"
+              /></a>
+
+              <ul class="menu__nesting">
+                <li class="menu__inside">
+                  <a href="#" class="menu__link menu__link--inside"
+                    >Electrolive</a
+                  >
+                </li>
+                <li class="menu__inside">
+                  <a
+                    href="http://www.conectis.com.ar/"
+                    class="menu__link menu__link--inside"
+                    >Conectis</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu__item menu__item--show">
+              <a href="galeria.html" class="menu__link">Galeria</a>
+            </li>
+
+            <li class="menu__item">
+              <a href="#" class="menu__link" id="select">Contacto</a>
+            </li>
+          </ul>
+
+          <div class="menu__hamburguer">
+            <img src="assets/icons/menu.svg" class="menu__img" />
+          </div>
+        </section>
+      </nav>
+    </header>
+    <!----------------------CONTENT------------------------>
+    <!-----------------FORMULARIO-------------------->
+    <div class="container__formulary">
+      <h1 class="title">Escribe tus datos</h1>
+
+      <div class="formulary-wrapper animated bounceInUp">
+        <div class="formulary-form">
+          <h3>Formulario</h3>
+          <form action="https://formsubmit.co/Nnaavil@gmail.com" method="POST">
+            <p>
+              <label>Nombre y apellido</label>
+              <input type="text" name="Nombre" />
+            </p>
+
+            <p>
+              <label>Cuit/DNI</label>
+              <input type="text" name="DNI/CUIT" />
+            </p>
+
+            <p>
+              <label>Email</label>
+              <input type="email" name="email" />
+            </p>
+
+            <p>
+              <label>teléfono</label>
+              <input type="teléfono" name="teléfono" />
+            </p>
+
+            <p>
+              <label>¿Qué servicio deseas?</label>
+              <input type="servicio" name="servicio" />
+            </p>
+
+            <p class="block">
+              <button>Enviar</button>
+            </p>
+
+            <input type="hidden" name="_next" value="www.electrolive.com.ar" />
+            <input type="hidden" name="_captcha" value="false" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------CARRUSEL DE IMAGEN----------------->
+    <div class="carrusel">
+      <a href="">Pagar</a>
+      <div class="carrusel__items">
+        <div class="carrusel-item">
+          <img src="assets//images/macro.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="assets/images/mercadopago.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="assets/images/nacion.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="assets/images/Naranja.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="assets/images/santander.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="assets/images/uala.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="assets/images/Brubank.png" alt="" />
+        </div>
+        <div class="carrusel-item">
+          <img src="assets/images/bancor.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-----------------FOOTER----------------->
+    <footer>
+      <section class="container container__footer">
+        <div class="container__logoFooter">
+          <img src="assets/images/logo.png" alt="" class="img" />
+        </div>
+      </section>
+      <section class="copy__footer">
+        <div class="copyright__footer">
+          <p>&copy; copyright 2023 Electrolive</p>
+        </div>
+      </section>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/carrusel.js"></script>
+  </body>
+</html>
