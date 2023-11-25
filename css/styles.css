@@ -676,7 +676,7 @@ header {
   }
 
   .title--slider {
-    font-size: 2rem;
+    font-size: 1.6rem;
     top: 40%;
     width: 90%;
   }
@@ -714,7 +714,7 @@ header {
   }
 
   /******* CONTENT2 *******/
-  .cover2 h2 {
+  .subtitle2 {
     color: #fff;
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
@@ -789,12 +789,9 @@ header {
   .cover2__container {
     height: 700px;
   }
-  .cover2 h2 {
-    color: #fff;
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    text-align: center;
+
+  .cover2__texts h2 {
+    font-size: 1.5rem;
   }
 
   .cover2 .cover2__picture {
